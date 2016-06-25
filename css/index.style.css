@@ -1,0 +1,306 @@
+/*--------->> universal selector css <<-----*/
+*{
+  margin: 0;
+  padding: 0;
+  border-style: none;
+  outline: none;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  color: #000000;
+}
+
+span{
+  padding-left: 20px;
+}
+
+/*---------->> end of css universal selector <<-------*/
+/*------->> id css <<-------*/
+#contact{
+  background: url("../assets/background.jpg") no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+}
+
+#contact h1{
+  color: #fff;
+}
+
+#contact h4{
+  color: #fff;
+}
+
+#credits{
+  padding: 30px 0px;
+}
+
+#client{
+  padding-top: 50px;
+}
+
+#client .footer-image{
+  padding-top: 20px;
+}
+
+#footer-team{
+  background:  #FFE1BD;
+}
+
+#footer-team .footer-title{
+  padding: 50px 0px;
+}
+
+#main-menu{
+  height: 110px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  padding: 0px 0px;
+}
+
+#nav-menu{
+  margin-top: 30px;
+  border: transparent;
+  background-color: #fff;
+}
+
+#portofolio{
+  padding: 45px 0px;
+}
+
+#portofolio a{
+  border-radius: 50px;
+  border-style: none;
+  color: #fff;
+  background: #000;
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+}
+
+#portofolio a:hover{
+  color: #000;
+  background: #FFE1BD;
+
+}
+
+#services{
+  padding: 30px 0px;
+  background: #f9f9f9;
+}
+
+#services .banner{
+  padding: 30px 0px;
+}
+#slider h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+}
+
+#slider a{
+  border-radius: 50px;
+  border-style: none;
+  color: #fff;
+  background: #000;
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+}
+
+#slider a:hover{
+  color: #000;
+  background: #FFE1BD;
+}
+
+#slider p{
+  color: #000;
+}
+
+/* Scroll up */
+
+#top-link-block.affix-top {
+    position: absolute;
+    bottom: -82px;
+    left: 10px;
+}
+#top-link-block.affix {
+    position: fixed;
+    bottom: 18px;
+    right: 10px;
+}
+
+#top-link-block a{
+  border-radius: 90px;
+  opacity: 1px;
+  color: #fff;
+  background: rgba(0,0,0,.5);
+  border-style: none;
+  transition-duration: 0.4s;
+}
+#top-link-block a:hover{
+  background: #FFE1BD;
+}
+/* end scroll up */
+/*------->> end of id css <<---*/
+
+/* -------->> class css <<----------*/
+
+.client-say h1{
+  text-align: right;
+}
+.client-say p{
+  text-align: right;
+}
+
+.content-btn{
+  border-radius: 50px;
+  color: black;
+  background: white;
+  padding: 7px 37px;
+  margin-top: 10px;
+  margin-bottom: 95px;
+  transition-duration: 0.7s;
+}
+
+.content-btn:hover{
+  border-color: black;
+  background: #fff;
+}
+
+.contact-info li{
+  list-style: none;
+  padding: 10px 0px;
+  color: #fff;
+}
+
+.form-setting{
+  background: none;
+  box-shadow: none;
+  border-radius: 0px;
+  border-top: 1px solid #999;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  color: #fff;
+}
+
+.footer-btn{
+  border-radius: 50px;
+  color: black;
+  padding: 15px 65px;
+  margin-top: 10px;
+  margin-bottom: 95px;
+}
+
+.main-content-services{
+  padding-bottom: 60px;
+}
+
+.main-content-services p{
+  text-align: justify;
+}
+
+.porto-setting{
+  padding: 20px 0px;
+}
+
+.porto-overlay{
+width: 80%;
+height: 80%;
+left: 10%;
+top: 10%;
+position: absolute;
+padding-top: 15%;
+opacity: 0;
+transition: all 0.6s;
+}
+
+.porto-overlay:hover{
+  color: black;
+  background: #FFE1BD;
+  opacity: 100;
+}
+.porto-overlay-bigImg h4{
+  text-align: center;
+  padding-top: 50%;
+  font-size: 30px;
+}
+
+.porto-overlay-bigImg p{
+  text-align: center;
+}
+
+.porto-overlay-smallImg h4{
+  text-align: center;
+  padding-top: 20%;
+  font-size: 30px;
+}
+
+.porto-overlay-smallImg p{
+  text-align: center;
+}
+
+.separator{
+  background: #000;
+  height: 2px;
+  width: 60px;
+}
+
+.separator-slider{
+  margin: 20px auto;
+}
+
+.separator-content{
+  margin: 20px 0px;
+}
+
+.separator-client-separator{
+  margin: 15px 83%;
+}
+
+.separator-portofolio{
+  margin: 20px 40%;
+}
+
+.separator-footer{
+  margin: 20px 40%;
+}
+
+.slider-content{
+  padding-bottom: 115px;
+}
+
+.slider-content a{
+  border-radius: 50px;
+  color: #fff;
+  background: #000;
+  border-style: none;
+  padding: 10px 16px;
+  transition-duration: 0.4s;
+}
+
+.socnet a i{
+  font-size: 15px;
+  color:#000;
+  background: #fff;
+  text-align: center;
+  width:40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left:10px;
+}
+
+.socnet a:hover i{
+  background: #ffe1bd;
+  color:#fff;
+}
+
+.text-client{
+  padding: 20px 0px;
+}
+
+
+/*------>> end class css <<----*/
